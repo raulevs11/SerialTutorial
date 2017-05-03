@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1493820719 source:e:\facultate\pc\medii\seriale\main.c
+	<stdio.h>
+	<stdlib.h>
+	"structuri.h"
+
+1493820934 e:\facultate\pc\medii\seriale\structuri.h
+	<stdio.h>
+	<stdlib.h>
+
+1493821218 source:e:\facultate\pc\medii\seriale\structuri.c
+	"structuri.h"
+
