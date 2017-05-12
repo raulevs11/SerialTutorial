@@ -1,8 +1,6 @@
 # depslib dependency file v1.0
-1493820719 source:e:\facultate\pc\medii\seriale\main.c
-	<stdio.h>
-	<stdlib.h>
-	"structuri.h"
+1494597376 source:e:\facultate\pc\medii\seriale\main.c
+	"model.h"
 
 1493820934 e:\facultate\pc\medii\seriale\structuri.h
 	<stdio.h>
@@ -10,4 +8,36 @@
 
 1493821218 source:e:\facultate\pc\medii\seriale\structuri.c
 	"structuri.h"
+
+1494591948 source:e:\facultate\pc\medii\seriale\episod.cpp
+	"episod.h"
+
+1494592448 e:\facultate\pc\medii\seriale\episod.h
+	<stdio.h>
+	<string.h>
+
+1494595573 e:\facultate\pc\medii\seriale\model.h
+	"serie.h"
+
+1494595282 e:\facultate\pc\medii\seriale\serie.h
+	"episod.h"
+	<stdio.h>
+	"tools.h"
+
+1494591472 source:e:\facultate\pc\medii\seriale\model.cpp
+	"model.h"
+
+1494591472 source:e:\facultate\pc\medii\seriale\serie.cpp
+	"serie.h"
+
+1494591948 source:e:\facultate\pc\medii\seriale\episod.c
+	"episod.h"
+
+1494596344 source:e:\facultate\pc\medii\seriale\model.c
+	"model.h"
+
+1494596030 source:e:\facultate\pc\medii\seriale\serie.c
+	"serie.h"
+
+1494595282 e:\facultate\pc\medii\seriale\tools.h
 

@@ -31,9 +31,15 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="episod.cpp" />
+		<Unit filename="episod.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="model.cpp" />
+		<Unit filename="model.h" />
+		<Unit filename="serie.cpp" />
+		<Unit filename="serie.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
