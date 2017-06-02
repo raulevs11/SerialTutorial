@@ -1,0 +1,7 @@
+adaugare_serie
+
+> ns Blackfish
+
+adaugare_episod
+
+> me Blackfish Titlu_ep 1 1

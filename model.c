@@ -35,3 +35,41 @@ void adaugare_episod( char titlu_serie[20],char titlu_episod[20],unsigned int se
     }
 
 }
+void adaugare_episod1(char titlu_serie[20],char titlu_episod[20]){
+
+    // Verificare exitenta serie
+    if(!exista(model.serii, model.nr_serii,titlu_serie)){
+        // Daca nu exista,e bai
+        printf("Eroare");
+    }
+    else {
+        // Daca exosta o cautam
+        int i = 0;
+        for(i=0;i<model.nr_serii;i++){
+            if(strcmp(model.serii[i].titlu,titlu_serie)== 0) {
+                // Am gasit seria
+
+                Episod episod_nou;
+                if (model.serii[i].nr_ep == 0) {
+                    // Daca este primul epizod din serie
+                    episod_nou = makeEpisod(1, 1, titlu_episod);
+                }
+                else {
+                    // daca nu este primul, me uitam, la ultimukl episod
+                    Episod ultimul_episod = model.serii[i].episoade[model.serii[i].nr_ep-1];
+
+                    unsigned int sezon = ultimul_episod.sezon;
+                    unsigned int epizod = ultimul_episod.nr_ep;
+                    epizod++;
+
+                    episod_nou = makeEpisod(sezon, epizod, titlu_episod);
+                }
+
+                // inseram
+                model.serii[i].episoade[model.serii[i].nr_ep] = episod_nou;
+                model.serii[i].nr_ep++;
+            }
+        }
+    }
+}
+

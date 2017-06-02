@@ -31,15 +31,31 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="episod.cpp" />
+		<Unit filename="descrieri.txt" />
+		<Unit filename="episod.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="episod.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="model.cpp" />
+		<Unit filename="meniu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="meniu.h" />
+		<Unit filename="model.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="model.h" />
-		<Unit filename="serie.cpp" />
+		<Unit filename="serie.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="serie.h" />
+		<Unit filename="test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test.h" />
+		<Unit filename="tools.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

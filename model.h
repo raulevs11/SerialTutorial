@@ -14,6 +14,6 @@ void init_model();
 void print_model(Model m);
 void adaugare_serie( char titlu[20]);
 void adaugare_episod( char titlu_serie[20],char titlu_episod[20],unsigned int sezon,unsigned int nr_ep);
-
+void adaugare_episod1(char titlu_serie[20],char titlu_episod[20]);
 
 #endif // MODEL_H_INCLUDED

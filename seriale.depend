@@ -1,6 +1,6 @@
 # depslib dependency file v1.0
-1494597376 source:e:\facultate\pc\medii\seriale\main.c
-	"model.h"
+1496403905 source:e:\facultate\pc\medii\seriale\main.c
+	"fisier.h"
 
 1493820934 e:\facultate\pc\medii\seriale\structuri.h
 	<stdio.h>
@@ -12,11 +12,11 @@
 1494591948 source:e:\facultate\pc\medii\seriale\episod.cpp
 	"episod.h"
 
-1494592448 e:\facultate\pc\medii\seriale\episod.h
+1495624920 e:\facultate\pc\medii\seriale\episod.h
 	<stdio.h>
 	<string.h>
 
-1494595573 e:\facultate\pc\medii\seriale\model.h
+1495623554 e:\facultate\pc\medii\seriale\model.h
 	"serie.h"
 
 1494595282 e:\facultate\pc\medii\seriale\serie.h
@@ -33,11 +33,30 @@
 1494591948 source:e:\facultate\pc\medii\seriale\episod.c
 	"episod.h"
 
-1494596344 source:e:\facultate\pc\medii\seriale\model.c
+1495622917 source:e:\facultate\pc\medii\seriale\model.c
 	"model.h"
 
 1494596030 source:e:\facultate\pc\medii\seriale\serie.c
 	"serie.h"
 
 1494595282 e:\facultate\pc\medii\seriale\tools.h
+
+1494597381 source:e:\facultate\pc\medii\seriale\test.c
+	"test.h"
+
+1494597396 e:\facultate\pc\medii\seriale\test.h
+	"model.h"
+
+1495627072 e:\facultate\pc\medii\seriale\meniu.h
+	"model.h"
+	<windows.h>
+
+1496404053 source:e:\facultate\pc\medii\seriale\meniu.c
+	"meniu.h"
+
+1496399595 e:\facultate\pc\medii\seriale\fisier.h
+	"meniu.h"
+
+1496403852 source:e:\facultate\pc\medii\seriale\fisier.c
+	"fisier.h"
 
